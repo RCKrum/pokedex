@@ -1,0 +1,10 @@
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex-form.csproj.AssemblyReference.cache
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex_form.Form1.resources
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex_form.Properties.Resources.resources
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex-form.csproj.GenerateResource.cache
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex-form.csproj.CoreCompileInputs.cache
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\bin\Debug\pokedex-form.exe.config
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\bin\Debug\pokedex-form.exe
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\bin\Debug\pokedex-form.pdb
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex-form.exe
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex-form.pdb
