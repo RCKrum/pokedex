@@ -8,3 +8,4 @@ C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-fina
 C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\bin\Debug\pokedex-form.pdb
 C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex-form.exe
 C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex-form.pdb
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex_form.frmPokemon.resources

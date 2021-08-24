@@ -44,5 +44,12 @@ namespace pokedex_form
             Pokemon poke = (Pokemon)dgvPokemon.CurrentRow.DataBoundItem;
             pbxPokemon.Load(poke.UrlImagen);
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmPokemon ventanaNuevo = new frmPokemon();
+            ventanaNuevo.ShowDialog();
+            
+        }
     }
 }
