@@ -1,0 +1,9 @@
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\negocio\bin\Debug\negocio.dll
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\negocio\bin\Debug\negocio.pdb
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\negocio\bin\Debug\modelo.dll
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\negocio\bin\Debug\modelo.pdb
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\negocio\obj\Debug\negocio.dll
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\negocio\obj\Debug\negocio.pdb

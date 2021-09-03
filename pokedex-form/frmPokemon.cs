@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using modelo;
+using negocio;
 
 namespace pokedex_form
 {
@@ -32,6 +34,9 @@ namespace pokedex_form
                 nuevo.Nombre = txtNombre.Text;
                 nuevo.Descripcion = txtDescripcion.Text;
                 nuevo.UrlImagen = txtUrlImagen.Text;
+                nuevo.Tipo = (Elemento)cboTipo.SelectedItem;
+                nuevo.Debilidad =(Elemento)cboDebilidad.SelectedItem;
+
                 negocio.agregar(nuevo);
                 MessageBox.Show("pokemon agregado exitosamente");
                 Close();
@@ -42,6 +47,23 @@ namespace pokedex_form
             {
 
                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void frmPokemon_Load(object sender, EventArgs e)
+        {
+            ElementoNegocio elementoNegocio = new ElementoNegocio();
+            
+            try
+            {
+                cboTipo.DataSource = elementoNegocio.listar();
+                cboDebilidad.DataSource = elementoNegocio.listar();
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
             }
         }
     }

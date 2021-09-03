@@ -39,13 +39,17 @@ namespace pokedex_form
             this.numNumero = new System.Windows.Forms.NumericUpDown();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.cboTipo = new System.Windows.Forms.ComboBox();
+            this.cboDebilidad = new System.Windows.Forms.ComboBox();
+            this.lblTipo = new System.Windows.Forms.Label();
+            this.lblDebilidad = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numNumero)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNumero
             // 
             this.lblNumero.AutoSize = true;
-            this.lblNumero.Location = new System.Drawing.Point(13, 9);
+            this.lblNumero.Location = new System.Drawing.Point(38, 15);
             this.lblNumero.Name = "lblNumero";
             this.lblNumero.Size = new System.Drawing.Size(66, 15);
             this.lblNumero.TabIndex = 0;
@@ -54,7 +58,7 @@ namespace pokedex_form
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(13, 47);
+            this.lblNombre.Location = new System.Drawing.Point(38, 42);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(66, 15);
             this.lblNombre.TabIndex = 1;
@@ -63,7 +67,7 @@ namespace pokedex_form
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(13, 85);
+            this.lblDescripcion.Location = new System.Drawing.Point(13, 69);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(91, 15);
             this.lblDescripcion.TabIndex = 2;
@@ -72,7 +76,7 @@ namespace pokedex_form
             // lblUrlImagen
             // 
             this.lblUrlImagen.AutoSize = true;
-            this.lblUrlImagen.Location = new System.Drawing.Point(13, 123);
+            this.lblUrlImagen.Location = new System.Drawing.Point(18, 96);
             this.lblUrlImagen.Name = "lblUrlImagen";
             this.lblUrlImagen.Size = new System.Drawing.Size(86, 15);
             this.lblUrlImagen.TabIndex = 3;
@@ -80,35 +84,35 @@ namespace pokedex_form
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(122, 47);
+            this.txtNombre.Location = new System.Drawing.Point(122, 36);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(118, 21);
+            this.txtNombre.Size = new System.Drawing.Size(131, 21);
             this.txtNombre.TabIndex = 1;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(122, 85);
+            this.txtDescripcion.Location = new System.Drawing.Point(122, 63);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(119, 21);
+            this.txtDescripcion.Size = new System.Drawing.Size(131, 21);
             this.txtDescripcion.TabIndex = 2;
             // 
             // txtUrlImagen
             // 
-            this.txtUrlImagen.Location = new System.Drawing.Point(121, 123);
+            this.txtUrlImagen.Location = new System.Drawing.Point(122, 90);
             this.txtUrlImagen.Name = "txtUrlImagen";
-            this.txtUrlImagen.Size = new System.Drawing.Size(119, 21);
+            this.txtUrlImagen.Size = new System.Drawing.Size(131, 21);
             this.txtUrlImagen.TabIndex = 3;
             // 
             // numNumero
             // 
             this.numNumero.Location = new System.Drawing.Point(122, 9);
             this.numNumero.Name = "numNumero";
-            this.numNumero.Size = new System.Drawing.Size(118, 21);
+            this.numNumero.Size = new System.Drawing.Size(131, 21);
             this.numNumero.TabIndex = 0;
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(16, 200);
+            this.btnAceptar.Location = new System.Drawing.Point(29, 200);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 4;
@@ -118,7 +122,7 @@ namespace pokedex_form
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(164, 200);
+            this.btnCancelar.Location = new System.Drawing.Point(178, 200);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 5;
@@ -126,11 +130,49 @@ namespace pokedex_form
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
+            // cboTipo
+            // 
+            this.cboTipo.FormattingEnabled = true;
+            this.cboTipo.Location = new System.Drawing.Point(122, 117);
+            this.cboTipo.Name = "cboTipo";
+            this.cboTipo.Size = new System.Drawing.Size(131, 23);
+            this.cboTipo.TabIndex = 6;
+            // 
+            // cboDebilidad
+            // 
+            this.cboDebilidad.FormattingEnabled = true;
+            this.cboDebilidad.Location = new System.Drawing.Point(122, 146);
+            this.cboDebilidad.Name = "cboDebilidad";
+            this.cboDebilidad.Size = new System.Drawing.Size(131, 23);
+            this.cboDebilidad.TabIndex = 7;
+            // 
+            // lblTipo
+            // 
+            this.lblTipo.AutoSize = true;
+            this.lblTipo.Location = new System.Drawing.Point(65, 125);
+            this.lblTipo.Name = "lblTipo";
+            this.lblTipo.Size = new System.Drawing.Size(39, 15);
+            this.lblTipo.TabIndex = 8;
+            this.lblTipo.Text = "Tipo:";
+            // 
+            // lblDebilidad
+            // 
+            this.lblDebilidad.AutoSize = true;
+            this.lblDebilidad.Location = new System.Drawing.Point(27, 154);
+            this.lblDebilidad.Name = "lblDebilidad";
+            this.lblDebilidad.Size = new System.Drawing.Size(77, 15);
+            this.lblDebilidad.TabIndex = 9;
+            this.lblDebilidad.Text = "Debilidad :";
+            // 
             // frmPokemon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(338, 257);
+            this.Controls.Add(this.lblDebilidad);
+            this.Controls.Add(this.lblTipo);
+            this.Controls.Add(this.cboDebilidad);
+            this.Controls.Add(this.cboTipo);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.numNumero);
@@ -146,6 +188,7 @@ namespace pokedex_form
             this.Name = "frmPokemon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agregar Pokemon";
+            this.Load += new System.EventHandler(this.frmPokemon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numNumero)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -164,5 +207,9 @@ namespace pokedex_form
         private System.Windows.Forms.NumericUpDown numNumero;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.ComboBox cboTipo;
+        private System.Windows.Forms.ComboBox cboDebilidad;
+        private System.Windows.Forms.Label lblTipo;
+        private System.Windows.Forms.Label lblDebilidad;
     }
 }

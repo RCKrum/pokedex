@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pokedex_form
+namespace modelo
 {
-    class Elemento
+    public class Elemento
     {
         public int Id { get; set; }
         public string Descripcion { get; set; }
@@ -15,6 +15,14 @@ namespace pokedex_form
         {
             Id = id;
             Descripcion = descripcion;
+        }
+        public Elemento()
+        {
+
+        }
+        public override string ToString()
+        {
+            return Descripcion;
         }
     }
 }

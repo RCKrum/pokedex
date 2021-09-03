@@ -1,0 +1,6 @@
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\modelo\bin\Debug\modelo.dll
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\modelo\bin\Debug\modelo.pdb
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\modelo\obj\Debug\modelo.csproj.AssemblyReference.cache
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\modelo\obj\Debug\modelo.csproj.CoreCompileInputs.cache
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\modelo\obj\Debug\modelo.dll
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\modelo\obj\Debug\modelo.pdb

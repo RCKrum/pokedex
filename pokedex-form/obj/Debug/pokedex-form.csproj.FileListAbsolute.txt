@@ -9,3 +9,8 @@ C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-fina
 C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex-form.exe
 C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex-form.pdb
 C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex_form.frmPokemon.resources
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\bin\Debug\modelo.dll
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\bin\Debug\negocio.dll
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\bin\Debug\modelo.pdb
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\bin\Debug\negocio.pdb
+C:\Users\Compumar\OneDrive\Escritorio\Nivel2-proyecto-final\nivel2-proyecto-final\pokedex-form\obj\Debug\pokedex-form.csproj.CopyComplete

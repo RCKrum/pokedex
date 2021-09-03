@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokedex-form", "pokedex-form\pokedex-form.csproj", "{2F2887C2-6B38-48E2-AD0A-192DF4E0F4C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modelo", "modelo\modelo.csproj", "{D8CF1923-F0F8-4A2B-B3C1-1A678BC0DEFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negocio", "negocio\negocio.csproj", "{EF47325A-0854-4DBC-B4F3-A5594E4BB4BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2F2887C2-6B38-48E2-AD0A-192DF4E0F4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F2887C2-6B38-48E2-AD0A-192DF4E0F4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F2887C2-6B38-48E2-AD0A-192DF4E0F4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8CF1923-F0F8-4A2B-B3C1-1A678BC0DEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CF1923-F0F8-4A2B-B3C1-1A678BC0DEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CF1923-F0F8-4A2B-B3C1-1A678BC0DEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CF1923-F0F8-4A2B-B3C1-1A678BC0DEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF47325A-0854-4DBC-B4F3-A5594E4BB4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF47325A-0854-4DBC-B4F3-A5594E4BB4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF47325A-0854-4DBC-B4F3-A5594E4BB4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF47325A-0854-4DBC-B4F3-A5594E4BB4BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
